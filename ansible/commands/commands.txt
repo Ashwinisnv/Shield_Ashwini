@@ -3,7 +3,7 @@ Commands for Ansible assignment.
    apt-get install ansible
 
 2. Verify Ansible installed and check its version:
-   ansible —version
+   ansible --version
 
 3. SSH Key Generation
    ssh-keygen
@@ -18,7 +18,7 @@ Commands for Ansible assignment.
    ansible -m ping host_group_name
 
 7. Run ansible playbook to deploy webserver and display webpage.
-   ansible –playbook  apache.yml –ask-sudo-pass
+   ansible –playbook apache.yml –ask-sudo-pass
 
 8. Run ansible playbook to undeploy resources.
    ansible -playbook apache_uninstall.yml
