@@ -1,5 +1,5 @@
 Commands for Ansible assignment.
-1. Install Ansible
+1. Install Ansible command on termina;
    apt-get install ansible
 
 2. Verify Ansible installed and check its version:
